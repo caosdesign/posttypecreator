@@ -5,9 +5,25 @@
 	<input id="post_name" type="text" name="post_name" val="post_name">
 	</br>
 	</br>
-	<label>Fields</label>
-	<input id="post_qnt_fields" type="number" name="post_qnt_fields">
-	<input id="post_qnt_ok_bt" type="button" id="create_bt" value="Ok">
+	<div id="fields_options_container">
+		<div id="field_options_0">
+			<label>Field Name</label>
+			<input id="field_name_0" type="text" name="field_name">
+			<label>Field Type</label>
+			<select id="field_type_0" name="field_type">
+				<option value="text">Text</option>
+				<option value="text_area">Text Area</option>
+				<option value="checkbox">Checkbox</option>
+				<option value="radio">Radio</option>
+				<option value="date">Date</option>
+				<option value="time">Time</option>
+				<option value="taxonomy">Taxonomy</option>
+			</select>
+			<sapn id="remove_bt_0">[x]</span>
+		</div>
+	</div>
+	</br>
+	<span id="add_field">Add Field</span>
 	</br>
 	</br>
 </form>
